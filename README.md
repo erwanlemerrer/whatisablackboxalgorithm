@@ -1,16 +1,10 @@
----
-author:
-- |
+# What is a black box algorithm?
+## Tractatus of algorithmic decision-making
+
   Erwan Le Merrer, Inria\
   Gilles Trédan, CNRS
-title: |
-  **What is a black box algorithm?\
-  Tractatus of algorithmic decision-making\
-   \
-  v1.0 EN**
----
 
-![image](tractatus-box.png){width="43%"}
+(First published [here](https://inria.hal.science/hal-03940259v1/document))
 
 Companies or institutions (Divinities) disintermediate their relations
 with users via decision-making algorithms (Pythias): users (mortals) are
@@ -18,9 +12,7 @@ offered arbitrary decisions (oracles) during their interactions. How to
 apprehend these black box algorithms, from the point of view of a user
 or regulator?
 
-![image](88x31.png){width="20%"}
-
-Algorithms {#algorithms .unnumbered}
+Algorithms
 ----------
 
 1.  A data is the numerical representation of an object, or the product
@@ -65,7 +57,7 @@ Algorithms {#algorithms .unnumbered}
     1.  The dynamics of this interaction and its output are said to be
         emergent.
 
-Algorithmic decisions {#algorithmic-decisions .unnumbered}
+Algorithmic decisions
 ---------------------
 
 1.  The input (resp. output) space is the set of combinations of values
@@ -103,7 +95,7 @@ Algorithmic decisions {#algorithmic-decisions .unnumbered}
 5.  A decision is said to be biased if it is produced causally by data
     which should not lead to it.
 
-Explanation of algorithmic decisions {#explanation-of-algorithmic-decisions .unnumbered}
+Explanation of algorithmic decisions
 ------------------------------------
 
 1.  The possibility of freely manipulating an algorithm source code, and
@@ -138,7 +130,7 @@ Explanation of algorithmic decisions {#explanation-of-algorithmic-decisions .unn
     2.  The decision boundaries of an algorithm are made up of all the
         points previously defined.
 
-Black box algorithms {#black-box-algorithms .unnumbered}
+Black box algorithms
 --------------------
 
 1.  A black box algorithm is said to be observable if any change of its
@@ -186,8 +178,7 @@ Black box algorithms {#black-box-algorithms .unnumbered}
         same algorithm (their source code may indeed diverge), or two
         different algorithms (*e.g.*, a bubble sort algorithm and a
         fusion sort algorithm); their outputs are expected to be
-        identical. [\[indistinguishability\]]{#indistinguishability
-        label="indistinguishability"}
+        identical.
 
     2.  Two algorithms are distinguishable if there exist two different
         outputs for at least one given input.
@@ -240,7 +231,7 @@ Black box algorithms {#black-box-algorithms .unnumbered}
         elements that led to a given decision, on a given input
         (interpretation).
 
-The algorithm (in white box) on the third party side {#the-algorithm-in-white-box-on-the-third-party-side .unnumbered}
+The algorithm (in white box) on the third party side
 ----------------------------------------------------
 
 1.  We call third party the entity that runs an algorithm that faces
@@ -260,7 +251,7 @@ The algorithm (in white box) on the third party side {#the-algorithm-in-white-bo
         Indeed, and trivially, nothing proves that it is indeed the
         algorithm that is actually running in the service in question.
 
-Audit of algorithms {#audit-of-algorithms .unnumbered}
+Audit of algorithms
 -------------------
 
 1.  A class of algorithmic audits seeks to establish the validity or not
@@ -289,9 +280,7 @@ Shortcuts {#shortcuts .unnumbered}
 
 1.  What is a black box algorithm for which I can predict all outputs?
     An algorithm for which I have a perfect surrogate, in the sense of
-    its indistinguishability on all possible inputs
-    ([\[indistingabilite\]](#indistingabilite){reference-type="ref"
-    reference="indistingabilite"}) from this surrogate.
+    its indistinguishability on all possible inputs from this surrogate.
 
 2.  A black-box algorithm falls under the definition of proprietary
     software, because it does not exhibit a single of the four points
@@ -300,7 +289,7 @@ Shortcuts {#shortcuts .unnumbered}
     1.  Either the impossibility to execute, to distribute, to study, or
         to modify this software.
 
-Implications and societal distortions {#implications-and-societal-distortions .unnumbered}
+Implications and societal distortions
 -------------------------------------
 
 1.  An algorithm is also said to be biased if it produces decisions
