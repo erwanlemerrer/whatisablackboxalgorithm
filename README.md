@@ -6,6 +6,9 @@
 
 (First published [here](https://inria.hal.science/hal-03940259v1/document))
 
+<img src="https://github.com/erwanlemerrer/whatisablackboxalgorithm/blob/main/tractatus-box.png" width="300" alt="banner" class="center">
+
+
 Companies or institutions (Divinities) disintermediate their relations
 with users via decision-making algorithms (Pythias): users (mortals) are
 offered arbitrary decisions (oracles) during their interactions. How to
@@ -52,7 +55,7 @@ Algorithms
     to be *buggy* if this bias is unintentional.
 
 11. The interaction between algorithms via their inputs/outputs composes
-    a complex system. [\[complex\]]{#complex label="complex"}
+    a complex system.
 
     1.  The dynamics of this interaction and its output are said to be
         emergent.
@@ -275,7 +278,7 @@ Audit of algorithms
     used in practice in the domain: third parties rely largely on
     security through obscurity.
 
-Shortcuts {#shortcuts .unnumbered}
+Shortcuts
 ---------
 
 1.  What is a black box algorithm for which I can predict all outputs?
